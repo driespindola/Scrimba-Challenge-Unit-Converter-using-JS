@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #050505;
+    font-family: 'Inter', sans-serif;
+}
+
+.converter-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 83px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 283px;
+  max-width: 550px;
+  max-height: 550px;
+}
+
+.main-header {
+  background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+  color: white;
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 800;
+  padding-bottom: 54px;
+}
+
+
+#inputNum {
+  background: transparent;
+  border: transparent;
+  color: white;
+  font-size: 98px;
+  font-weight: 800;
+  text-align: center;
+  max-width: 211px;
+}
+
+#length {
+    margin-bottom: 57px;
+}
+
+#volume {
+    margin-bottom: 57px;
+}
+
+.content {
+  background: #FBF7EE;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1921;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4E4E4E
+}

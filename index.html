@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <main class="converter-card">
+        <header class="main-header">
+          <h1>Metric/Imperial unit conversion</h1>
+          <input id="inputNum" type="number" required value="0" oninput="unitConverter(this.value)" onchange="unitConverter(this.value)" min="0" max="100">
+        </header>
+        <section class="content">
+        <section id="length">
+          <p>Length (Meter/Feet)</p>
+          <div class="description">
+          <span id="num1-el">0</span> meters = <span id="outputMeters">0</span> feet | <span id="num2-el">0</span> feet = <span id=outputFeet>0</span> meters
+          </div>
+        </section>
+        <section id="volume">
+          <p>Volume (Liters/Gallons)</p>
+          <div class="description">
+            <span id="num3-el">0</span> liters = <span id="outputLiters">0</span> gallons | <span id="num4-el">0</span> gallons = <span id="outputGallons">0</span> litters
+          </div>
+        </section>
+        <p id="mass">Mass (Kilograms/Pounds)</p>
+        <div class="description">
+          <span id="num5-el">0</span> Kilos = <span id="outputKilos">0</span> pounds | <span id="num6-el">0</span> pounds = <span id="outputPounds">0</span> kilos
+        </div>
+        <script src="script.js"></script>
+        </section>
+      </main>
+    </body>
+</html>
